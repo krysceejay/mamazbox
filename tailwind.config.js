@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "overlay-color": "rgba(0, 0, 0, 0.3)",
+        "overlay-color": "rgba(0, 0, 0, 0.4)",
       },
       backgroundImage: theme => ({
-        "banner-img": "url('/assets/img/bg1.jpg')",
+        "banner-img": "url('/assets/img/bg3.jpg')",
         "newletter-img": "url('/assets/img/bg2.jpg')",
       }),
     },
