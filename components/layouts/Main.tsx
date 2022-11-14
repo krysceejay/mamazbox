@@ -18,8 +18,9 @@ const Main: NextPage<Props> = ({ children, title }) => {
         <meta name="description" content="Mamazbox app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="sticky top-0 z-40 py-5 shadow-sm bg-white w-full">
-        <div className="flex items-center justify-between container">
+      <nav className="sticky top-0 z-40 shadow-sm w-full bg-white">
+        <div className="bg-purple-700 text-center py-2 text-sm text-white w-full">Free shipping over $100 with code <span className="font-semibold">MAMAZBOX</span></div>
+        <div className="flex items-center justify-between container py-5">
           <div>
             <h2 className="font-semibold text-2xl leading-none tracking-widest">Mamazbox</h2>
             <span className="text-xs">Gifts for Expectant & New Moms</span>
