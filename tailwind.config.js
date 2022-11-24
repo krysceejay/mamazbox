@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "main-color": "#58286F",
         "overlay-color": "rgba(0, 0, 0, 0.4)",
       },
       backgroundImage: theme => ({

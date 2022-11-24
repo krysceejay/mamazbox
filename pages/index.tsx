@@ -51,13 +51,48 @@ const Home: NextPage = () => {
                 <img className="w-full h-full object-cover rounded-lg" src="/assets/img/img3.jpg" />
               </div>
               <div className="row-span-2">
-                <img className="w-full h-full object-cover rounded-lg" src="/assets/img/img1.jpeg" />
+                <img className="w-full h-full object-cover rounded-lg" src="/assets/img/img1.jpg" />
               </div>
             </div>
           </div>
         </div>
       </section>
       <section>
+        <div className="container">
+          <div className="my-16">
+            <div className="flex justify-between items-center">
+              <h2 className="text-[30px] tracking-wider font-medium leading-none">FEATURED ITEMS</h2>
+              <a className="btn bg-main-color text-white py-3 px-6 font-semibold text-sm cursor-pointer">
+                View All
+              </a>
+            </div>
+            <div className="grid grid-cols-3 gap-8 mt-12">
+              <div>
+                <img className="w-full h-96 object-cover rounded-md" src="/assets/img/IMGP8661.jpg" />
+                <div className="mt-4">
+                  <div className="text-xl font-light">The Spa Mini Gift Box for Mom</div>
+                  <span className="block text-2xl font-semibold">£68.00</span>
+                </div>
+              </div>
+              <div>
+                <img className="w-full h-96 object-cover rounded-md" src="/assets/img/IMGP8697.jpg" />
+                <div className="mt-4">
+                  <div className="text-xl font-light">Thank You Mom Gift Box</div>
+                  <span className="block text-2xl font-semibold">£68.00</span>
+                </div>
+              </div>
+              <div>
+                <img className="w-full h-96 object-cover rounded-md" src="/assets/img/IMGP8717.jpg" />
+                <div className="mt-4">
+                  <div className="text-xl font-light">Congratulations Mom Gift Box</div>
+                  <span className="block text-2xl font-semibold">£68.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-gray-50">
         <div className="container">
           <div className="flex my-16">
             <div className="flex-1 w-full h-[600px]">

@@ -19,10 +19,12 @@ const Main: NextPage<Props> = ({ children, title }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="sticky top-0 z-40 shadow-sm w-full bg-white">
-        <div className="bg-purple-700 text-center py-2 text-sm text-white w-full">Free shipping over $100 with code <span className="font-semibold">MAMAZBOX</span></div>
-        <div className="flex items-center justify-between container py-5">
+        <div className="bg-main-color text-center py-2 text-sm text-white w-full">Free shipping over $100 with code <span className="font-semibold">MAMAZBOX</span></div>
+        <div className="flex items-center justify-between container py-2">
           <div>
-            <h2 className="font-semibold text-2xl leading-none tracking-widest">Mamazbox</h2>
+            <div className="h-20 w-24">
+              <img className="w-full h-full object-cover" src="/assets/img/DarkPurple.png" />
+            </div>
             <span className="text-xs">Gifts for Expectant & New Moms</span>
           </div>
         </div>
