@@ -64,7 +64,7 @@ const Home: NextPage = () => {
                 View All
               </a>
             </div>
-            <div className="block sm:grid sm:grid-cols-3 sm:gap-4 md:gap-8 mt-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6 mt-12">
               <Link href={`/items/1`} className="bg-gray-100 rounded-md overflow-hidden">
                 <img className="w-full h-72 md:h-80 lg:h-96 object-cover" src="/assets/img/IMGP8663.jpg" />
                 <div className="m-4">
@@ -72,14 +72,14 @@ const Home: NextPage = () => {
                   <span className="block text-2xl font-semibold">£68.00</span>
                 </div>
               </Link>
-              <Link href={`/items/2`} className="mt-10 sm:mt-0 bg-gray-100 rounded-md overflow-hidden">
+              <Link href={`/items/2`} className="bg-gray-100 rounded-md overflow-hidden">
                 <img className="w-full h-72 md:h-80 lg:h-96 object-cover" src="/assets/img/IMGP8671.jpg" />
                 <div className="m-4">
                   <div className="text-xl sm:text-base md:text-xl font-light">Thank You Mom Gift Box</div>
                   <span className="block text-2xl font-semibold">£68.00</span>
                 </div>
               </Link>
-              <Link href={`/items/3`} className="mt-10 sm:mt-0 bg-gray-100 rounded-md overflow-hidden">
+              <Link href={`/items/3`} className="bg-gray-100 rounded-md overflow-hidden">
                 <img className="w-full h-72 md:h-80 lg:h-96 object-cover" src="/assets/img/IMGP8696.jpg" />
                 <div className="m-4">
                   <div className="text-xl sm:text-base md:text-xl font-light">Congratulations Mom Gift Box</div>

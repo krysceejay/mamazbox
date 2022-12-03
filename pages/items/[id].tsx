@@ -9,20 +9,20 @@ const ItemDetails: NextPage = () => {
       <section className="mb-32">
         <div className="container">
           <div className="overflow-hidden my-8">
-            <div className="w-[600px] float-left mr-10 mb-5">
-                <div className="w-full h-[450px]">
+            <div className="w-full md:w-[400px] lg:w-[600px] float-none md:float-left mr-10 mb-5">
+                <div className="w-full h-[370px] md:h-[350px] lg:h-[450px]">
                     <img className="w-full h-full object-cover" src="/assets/img/IMGP8663.jpg" />
                 </div>
-                <div className="grid grid-cols-4 gap-4 mt-6">
-                    <img className="w-full h-24 object-cover rounded-md" src="/assets/img/IMGP8663.jpg" />
-                    <img className="w-full h-24 object-cover rounded-md" src="/assets/img/IMGP8671.jpg" />
-                    <img className="w-full h-24 object-cover rounded-md" src="/assets/img/IMGP8696.jpg" />
-                    <img className="w-full h-24 object-cover rounded-md" src="/assets/img/IMGP8671.jpg" />
+                <div className="grid grid-cols-4 gap-2 sm:gap-4 mt-6">
+                    <img className="w-full h-20 sm:h-24 object-cover rounded-md" src="/assets/img/IMGP8663.jpg" />
+                    <img className="w-full h-20 sm:h-24 object-cover rounded-md" src="/assets/img/IMGP8671.jpg" />
+                    <img className="w-full h-20 sm:h-24 object-cover rounded-md" src="/assets/img/IMGP8696.jpg" />
+                    <img className="w-full h-20 sm:h-24 object-cover rounded-md" src="/assets/img/IMGP8671.jpg" />
                 </div>
             </div>
             <div className="">
                 <h2 className="text-xl">The Replenish and Restore New Mom/Postpartum Gift Box</h2>
-                <p className="text-2xl mt-4">£205.00</p>
+                <p className="text-2xl mt-4 font-semibold">£205.00</p>
                 <div className="flex items-center space-x-4 mt-4">
                     <div className="w-44">
                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
@@ -31,8 +31,10 @@ const ItemDetails: NextPage = () => {
                         <div className="relative">
                             <select className="block appearance-none w-full bg-gray-100 border-0 text-gray-700 py-3 px-4 pr-8 rounded focus:outline-none focus:bg-gray-100" id="grid-state">
                             <option>Select Size</option>
-                            <option>Missouri</option>
-                            <option>Texas</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
                             </select>
                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                             <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
