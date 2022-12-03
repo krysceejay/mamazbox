@@ -14,9 +14,7 @@ const Home: NextPage = () => {
               <p className="md:text-xl text-[#fbf4f4] mt-4 italic text-center">
                 Carefully and thoughtfully curated self-care gifts just for mama! Because mama should be pampered!
               </p>
-              <a className="btn btn-banner mt-12 font-semibold text-sm tracking-widest cursor-pointer">
-                SHOP NOW
-              </a>
+              <Link href="/items" className="btn btn-banner mt-12 font-semibold text-sm tracking-widest cursor-pointer">SHOP NOW</Link>
             </div>
           </div>
         </div>
@@ -34,7 +32,7 @@ const Home: NextPage = () => {
               <p className="md:text-lg leading-9 mt-4"> We know the journey and different phases can take a toll on mama, and for this we want her to feel good in and out.</p>
             </div>
             <div className="md:flex-1 w-full h-[350px] md:h-[600px]">
-              <img className="w-full h-full object-cover rounded-lg" src="/assets/img/img2.jpg" />
+              <img className="w-full h-full object-cover rounded-lg" src="/assets/img/IMGP8697.jpg" />
             </div>
           </div>
         </div>
@@ -51,7 +49,7 @@ const Home: NextPage = () => {
                 <img className="w-full h-[400px] md:h-full object-cover rounded-lg" src="/assets/img/img3.jpg" />
               </div>
               <div className="mt-8 md:mt-0 md:row-span-2">
-                <img className="w-full h-[400px] md:h-full object-cover rounded-lg" src="/assets/img/img1.jpg" />
+                <img className="w-full h-[400px] md:h-full object-cover rounded-lg" src="/assets/img/IMGP8673.jpg" />
               </div>
             </div>
           </div>
@@ -67,27 +65,27 @@ const Home: NextPage = () => {
               </a>
             </div>
             <div className="block sm:grid sm:grid-cols-3 sm:gap-4 md:gap-8 mt-12">
-              <div>
-                <img className="w-full h-72 md:h-80 lg:h-96 object-cover rounded-md" src="/assets/img/IMGP8661.jpg" />
-                <div className="mt-4">
+              <Link href={`/items/1`} className="bg-gray-100 rounded-md overflow-hidden">
+                <img className="w-full h-72 md:h-80 lg:h-96 object-cover" src="/assets/img/IMGP8663.jpg" />
+                <div className="m-4">
                   <div className="text-xl sm:text-base md:text-xl font-light">The Spa Mini Gift Box for Mom</div>
                   <span className="block text-2xl font-semibold">£68.00</span>
                 </div>
-              </div>
-              <div className="mt-10 sm:mt-0">
-                <img className="w-full h-72 md:h-80 lg:h-96 object-cover rounded-md" src="/assets/img/IMGP8697.jpg" />
-                <div className="mt-4">
+              </Link>
+              <Link href={`/items/2`} className="mt-10 sm:mt-0 bg-gray-100 rounded-md overflow-hidden">
+                <img className="w-full h-72 md:h-80 lg:h-96 object-cover" src="/assets/img/IMGP8671.jpg" />
+                <div className="m-4">
                   <div className="text-xl sm:text-base md:text-xl font-light">Thank You Mom Gift Box</div>
                   <span className="block text-2xl font-semibold">£68.00</span>
                 </div>
-              </div>
-              <div className="mt-10 sm:mt-0">
-                <img className="w-full h-72 md:h-80 lg:h-96 object-cover rounded-md" src="/assets/img/IMGP8717.jpg" />
-                <div className="mt-4">
+              </Link>
+              <Link href={`/items/3`} className="mt-10 sm:mt-0 bg-gray-100 rounded-md overflow-hidden">
+                <img className="w-full h-72 md:h-80 lg:h-96 object-cover" src="/assets/img/IMGP8696.jpg" />
+                <div className="m-4">
                   <div className="text-xl sm:text-base md:text-xl font-light">Congratulations Mom Gift Box</div>
                   <span className="block text-2xl font-semibold">£68.00</span>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
