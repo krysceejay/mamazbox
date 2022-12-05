@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import type { NextPage } from "next"
+import Link from "next/link"
 
 //Component
 import Layout from '../../components/layouts/Main'
@@ -20,12 +21,12 @@ const Cart: NextPage = () => {
                                     <div className="mt-4">
                                         <div className="btn-controls">
                                             <button 
-                                            className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                                            className="btn-minus">
                                                 &#x2212;
                                             </button>
-                                            <span className="px-2 text-center">2</span>
+                                            <span className="px-2 text-center text-lg">2</span>
                                             <button 
-                                            className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                                            className="btn-plus">
                                                 &#x2b;
                                             </button>
                                         </div>
@@ -34,7 +35,7 @@ const Cart: NextPage = () => {
                                 <div className="w-28 h-20 sm:w-1/3">
                                     <img className="w-full h-full object-contain" src="/assets/img/IMGP8697.jpg" alt="item" />
                                 </div>
-                                <span className="absolute cursor-pointer top-0 right-3">&#x2715;</span>
+                                <span className="absolute cursor-pointer top-0 right-3 text-2xl sm:text-xl">&#x2715;</span>
                             </div>
                             <div className="flex justify-between items-center relative mt-4 border-b py-4">
                                 <div className="cart-details pr-8">
@@ -43,12 +44,12 @@ const Cart: NextPage = () => {
                                     <div className="mt-4">
                                         <div className="btn-controls">
                                             <button 
-                                            className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                                            className="btn-minus">
                                                 &#x2212;
                                             </button>
-                                            <span className="px-2 text-center">2</span>
+                                            <span className="px-2 text-center text-lg">2</span>
                                             <button 
-                                            className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                                            className="btn-plus">
                                                 &#x2b;
                                             </button>
                                         </div>
@@ -57,7 +58,7 @@ const Cart: NextPage = () => {
                                 <div className="w-28 h-20 sm:w-1/3">
                                     <img className="w-full h-full object-contain" src="/assets/img/IMGP8697.jpg" alt="item" />
                                 </div>
-                                <span className="absolute cursor-pointer top-1 right-3">&#x2715;</span>
+                                <span className="absolute cursor-pointer top-0 right-3 text-2xl sm:text-xl">&#x2715;</span>
                             </div>
                             <div className="flex justify-between items-center relative mt-4 border-b py-4">
                                 <div className="cart-details pr-8">
@@ -66,12 +67,11 @@ const Cart: NextPage = () => {
                                     <div className="mt-4">
                                         <div className="btn-controls">
                                             <button 
-                                            className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                                            className="btn-minus">
                                                 &#x2212;
                                             </button>
-                                            <span className="px-2 text-center">2</span>
-                                            <button 
-                                            className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                                            <span className="px-2 text-center text-lg">2</span>
+                                            <button className="btn-plus">
                                                 &#x2b;
                                             </button>
                                         </div>
@@ -80,7 +80,7 @@ const Cart: NextPage = () => {
                                 <div className="w-28 h-20 sm:w-1/3">
                                     <img className="w-full h-full object-contain" src="/assets/img/IMGP8697.jpg" alt="item" />
                                 </div>
-                                <span className="absolute cursor-pointer top-1 right-3">&#x2715;</span>
+                                <span className="absolute cursor-pointer top-0 right-3 text-2xl sm:text-xl">&#x2715;</span>
                             </div>
                             <div className="w-full sm:w-1/2 ml-auto">
                                 <div className="mt-8 flex justify-between items-center">
@@ -88,10 +88,11 @@ const Cart: NextPage = () => {
                                     <div className="font-semibold text-xl">£205.00</div>
                                 </div>
                                 <button 
-                                className="bg-main-color focus:outline-none text-white text-base py-4 px-5 rounded mt-8 w-full" 
+                                className="bg-main-color focus:outline-none font-semibold text-sm tracking-widest text-white py-4 px-5 rounded mt-8 w-full" 
                                 type="button">
-                                Checkout
+                                CHECKOUT
                                 </button>
+                                <Link href="/items" className="btn bg-white py-4 px-5 mt-4 font-semibold text-sm tracking-widest cursor-pointer w-full text-center border">CONTINUE SHOPPING</Link>
                             </div>
                         </div>
                 </div>

@@ -18,4 +18,8 @@
   @apply flex justify-between items-center border w-24 p-2;
 }
 
+.btn-plus, .btn-minus {
+  @apply border-0 shadow-none outline-none bg-transparent cursor-pointer text-xl;
+}
+
 @tailwind utilities;

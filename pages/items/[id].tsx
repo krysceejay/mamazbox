@@ -46,11 +46,11 @@ const ItemDetails: NextPage = () => {
                         QUANTITY
                         </label>
                         <div className="btn-controls">
-                          <button className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                          <button className="btn-minus">
                               &#x2212;
                           </button>
-                          <span className="px-2 text-center">2</span>
-                          <button className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                          <span className="px-2 text-center text-lg">2</span>
+                          <button className="btn-plus">
                               &#x2b;
                           </button>
                       </div>
