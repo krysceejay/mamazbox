@@ -24,7 +24,7 @@ const ItemDetails: NextPage = () => {
                 <h2 className="text-xl">The Replenish and Restore New Mom/Postpartum Gift Box</h2>
                 <p className="text-2xl mt-4 font-semibold">£205.00</p>
                 <div className="flex items-center space-x-4 mt-4">
-                    <div className="w-44">
+                    <div className="w-32">
                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
                             SIZE
                         </label>
@@ -41,11 +41,19 @@ const ItemDetails: NextPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-44">
+                    <div className="w-32">
                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
                         QUANTITY
                         </label>
-                        <input type="number" min="1" className="pl-4 rounded py-3 bg-gray-100 border-0 text-gray-700 focus:outline-none focus:bg-gray-100" />
+                        <div className="btn-controls">
+                          <button className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                              &#x2212;
+                          </button>
+                          <span className="px-2 text-center">2</span>
+                          <button className="border-0 shadow-none outline-none bg-transparent cursor-pointer text-sm">
+                              &#x2b;
+                          </button>
+                      </div>
                     </div>
                 </div>
                 <button 

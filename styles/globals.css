@@ -14,4 +14,8 @@
   @apply bg-[#fbf4f4] text-black py-4 px-6 md:py-6 md:px-10 font-bold;
 }
 
+.btn-controls {
+  @apply flex justify-between items-center border w-24 p-2;
+}
+
 @tailwind utilities;

@@ -60,9 +60,9 @@ const Home: NextPage = () => {
           <div className="my-16">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl md:text-3xl tracking-wider font-medium leading-none">FEATURED ITEMS</h2>
-              <a className="btn bg-main-color text-white py-2 px-3 font-semibold text-xs cursor-pointer">
+              <Link href="/items" className="btn bg-main-color text-white py-2 px-3 font-semibold text-xs cursor-pointer">
                 View All
-              </a>
+              </Link>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6 mt-12">
               <Link href={`/items/1`} className="bg-gray-100 rounded-md overflow-hidden">

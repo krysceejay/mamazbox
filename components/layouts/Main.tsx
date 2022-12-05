@@ -12,7 +12,7 @@ interface Props {
 const Main: NextPage<Props> = ({ children, title }) => {
   
   return (
-    <>
+    <div className="min-h-[100vh] m-0 p-0 flex flex-col">
       <Head>
         <title>{title}</title>
         <meta name="description" content="Mamazbox app" />
@@ -46,7 +46,7 @@ const Main: NextPage<Props> = ({ children, title }) => {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
               </svg>
-              <span className="bg-main-color text-white p-2 rounded-full w-6 h-6 flex justify-center items-center text-center text-sm absolute -top-3 -right-3">1</span>
+              <span className="bg-main-color text-white p-2 rounded-full w-6 h-6 flex justify-center items-center text-center text-sm absolute -top-3 -right-3">3</span>
             </Link>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="block sm:hidden w-10 h-10">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -56,13 +56,13 @@ const Main: NextPage<Props> = ({ children, title }) => {
 
         </div>
       </nav>
-      <main>
+      <main className="flex-grow">
         {children}
       </main>
       <footer className="bg-black p-8">
         <div className="text-white text-center">Copyright &copy; {new Date().getFullYear()}, All Rights Reserved.</div>
       </footer>
-    </>
+    </div>
   )
 }
 
